@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="dark.css" />
+    <title>CF2CCConverter</title>
+  </head>
+  <body>
+    <div class="icons">
+      <a href="https://github.com/RuchiF"
+        ><i class="fa-brands fa-github"></i
+      ></a>
+      <a href="https://www.linkedin.com/in/ruchi-fatehchandani-290338280/"
+        ><i class="fa-brands fa-linkedin"></i
+      ></a>
+    </div>
+    <div class="wrapper">
+      <div class="container">
+        <div class="header">
+          <p class="heading1">Choose your</p>
+          <p class="heading2">CP Platform</p>
+        </div>
+
+        <div class="choose">
+          <button id="chef">Codechef</button>
+          <button id="forces">Codeforces</button>
+        </div>
+        <div class="askRating">
+          <h1 class="currPlatform">Enter Codeforces Rating</h1>
+          <input type="number" placeholder="Rating" class="rating" />
+          <button class="submit">Submit</button>
+        </div>
+        <div class="predictedRating">
+          <span class="cross">x</span>
+          <h1>Your Predicted Codeforces Rating</h1>
+          <h2 class="predictedValue">Rating :-2000</h2>
+        </div>
+        <div class="about">
+          <h2>About</h2>
+          <p>
+            This is a Rating Predictor.It can predict your Codeforces rating
+            from Codechef rating and vice versa.It is based on Linear Regression
+            model that was trained on data of 6000+ users.Just pick the platform
+            for which you want to predict your rating , enter rating of another
+            platform to get the result.Happy Learning!!❤️
+          </p>
+        </div>
+        <div class="footer">Made with ❤️ by Ruchi</div>
+      </div>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
