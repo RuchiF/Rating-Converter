@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+
+body {
+  background-color: #121212; /* Dark background color */
+  color: #ffffff; /* Primary text color */
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.container {
+  width: 60vw;
+  margin: auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.icons {
+  font-size: 50px;
+  display: flex;
+  gap: 2rem;
+  justify-content: flex-end;
+}
+.icons i {
+  color: white;
+}
+.icons i:hover {
+  color: #bb86fc; /* Accent color */
+}
+.header {
+  display: flex;
+  border-radius: 1rem;
+  font-weight: 600;
+  align-items: center;
+  background-color: #1e1e1e; /* Dark gray background for header */
+  justify-content: center;
+}
+
+.heading1 {
+  padding: 0.1rem 0.5rem;
+  font-size: 2.2rem;
+  color: #bb86fc; /* Accent color */
+  font-family: "Archivo";
+}
+
+.heading2 {
+  padding: 0.1rem 0.5rem;
+  font-size: 2.5rem;
+  color: #bb86fc; /* Accent color */
+  font-family: "Archivo";
+}
+
+.choose {
+  display: flex;
+  gap: 2rem;
+}
+
+.choose button {
+  background-color: #bb86fc; /* Accent color */
+  color: #121212; /* Dark background for contrast */
+  font-weight: 600;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.choose button:hover {
+  background-color: #3700b3; /* Darker accent color on hover */
+}
+
+.about {
+  font-size: 20px;
+  text-align: center;
+  flex-direction: column;
+  background-color: #1e1e1e; /* Dark gray background */
+  color: #b0b0b0; /* Secondary text color */
+  display: flex;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid #bb86fc; /* Accent border */
+  box-shadow: 0px 0px 10px 0px #bb86fc; /* Accent shadow */
+}
+
+.about:hover {
+  box-shadow: 0px 0px 20px 0px #bb86fc; /* Accent shadow */
+  box-shadow: 0px 0px 20px 0px #c9bcd9;
+}
+
+.footer {
+  color: #bb86fc; /* Accent color */
+  font-weight: 600;
+}
+
+.askRating {
+  color: #ffffff; /* Primary text color */
+  display: none;
+  flex-direction: column;
+  padding: 3rem;
+  border: 1px solid #bb86fc; /* Accent border */
+  border-radius: 1rem;
+  box-shadow: 0px 0px 10px 0px #bb86fc; /* Accent shadow */
+  gap: 1rem;
+  align-items: center;
+  font-family: "Archivo";
+}
+
+.askRating button {
+  font-size: 1.3rem;
+  font-weight: 400;
+  background-color: #bb86fc; /* Accent color */
+  color: #121212; /* Dark background for contrast */
+  border-radius: 0.4rem;
+  border: none;
+  cursor: pointer;
+}
+
+.askRating input {
+  font-size: 1.3rem;
+  border-radius: 0.4rem;
+  border: none;
+  background-color: #2e2e2e; /* Slightly lighter gray for input background */
+  color: #ffffff; /* Primary text color */
+  padding: 0.5rem;
+}
+
+.predictedRating {
+  display: none;
+  color: #ffffff; /* Primary text color */
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid #bb86fc; /* Accent border */
+  box-shadow: 0px 0px 10px 0px #bb86fc; /* Accent shadow */
+  gap: 1rem;
+  align-items: center;
+  font-family: "Archivo";
+  text-align: center;
+  position: relative;
+}
+
+.predictedRating .cross {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  cursor: pointer;
+  color: #bb86fc; /* Accent color */
+}
+
+.predictedRating .cross:hover {
+  color: #642ca9; /* Darker accent color on hover */
+}
+
+#chef:hover {
+  background-color: #c9bcd9; /* Darker accent color on hover */
+  box-shadow: 0px 0px 10px 0px #c9bcd9; /* Darker shadow */
+}
+
+#forces:hover {
+  background-color: #c9bcd9; /* Darker accent color on hover */
+  box-shadow: 0px 0px 10px 0px #c9bcd9; /* Darker shadow */
+}
+
+.cross:hover {
+  color: #c9bcd9; /* Darker accent color on hover */
+}
+
+.submit {
+  padding: 0.5rem;
+}
+.submit:hover {
+  background-color: #c9bcd9; /* Darker accent color on hover */
+  box-shadow: 0px 0px 10px 0px #c9bcd9;
+}
