@@ -9,8 +9,8 @@ let predictedValue = document.querySelector(".predictedValue");
 let cross = document.querySelector(".cross");
 let rating = document.querySelector(".rating");
 let flag = "codechef";
-let w = 0.47757781399220983;
-let b = 1033.878308134776;
+let w = 0.5253751404927927;
+let b = 965.0013703951934;
 let ans = 0;
 
 chef.addEventListener("click", () => {
