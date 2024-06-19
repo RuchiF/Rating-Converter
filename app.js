@@ -8,6 +8,7 @@ let predictedRating = document.querySelector(".predictedRating");
 let predictedValue = document.querySelector(".predictedValue");
 let cross = document.querySelector(".cross");
 let rating = document.querySelector(".rating");
+let msg= document.querySelector(".ratingMsg");
 let flag = "codechef";
 let w = 0.5253751404927927;
 let b = 965.0013703951934;
@@ -41,6 +42,11 @@ submit.addEventListener("click", () => {
   }
   predictedValue.innerHTML = `Rating :- ${ans}`;
   rating.value = "";
+  if (flag == "codeforces") {
+    msg.innerHTML = `Your predicted Codechef rating`;
+  } else {
+    msg.innerHTML = `Your predicted Codeforces rating`;
+  }
 
 });
 
