@@ -40,6 +40,8 @@ submit.addEventListener("click", () => {
     ans = Math.floor(ans);
   }
   predictedValue.innerHTML = `Rating :- ${ans}`;
+  rating.value = "";
+
 });
 
 cross.addEventListener("click", () => {
